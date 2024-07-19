@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "QR App Chrome Extension",
+    "version": "1.0.0",
+    "description": "A Chrome extension for QR App.",
+    "permissions": [
+        "storage",
+        "activeTab"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "16": "icons/Icon-192.png",
+            "48": "icons/Icon-192.png",
+            "128": "icons/Icon-512.png"
+        }
+    },
+    "icons": {
+        "16": "icons/Icon-192.png",
+        "48": "icons/Icon-192.png",
+        "128": "icons/Icon-512.png"
+    }
+
+}

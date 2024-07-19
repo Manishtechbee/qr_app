@@ -1,0 +1,8 @@
+.DS_Store 
+.vscode/ 
+.idea/ 
+build/ 
+*.lock 
+pubspec.lock 
+*.log 
+flutter_export_environment.sh 
